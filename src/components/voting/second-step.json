@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_voting_second_steps",
+  "info": {
+    "displayName": "SecondStep",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isDistributed": {
+      "type": "boolean",
+      "default": false
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "perAppVote": {
+      "type": "integer"
+    },
+    "judges": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "distribution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "voting.distribution"
+    },
+    "topCount": {
+      "type": "integer",
+      "default": 50
+    }
+  }
+}

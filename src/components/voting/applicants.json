@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_voting_applicants",
+  "info": {
+    "displayName": "applicants",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "applicant": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "votes": {
+      "displayName": "votes",
+      "type": "component",
+      "repeatable": true,
+      "component": "voting.votes"
+    },
+    "totalVote": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_user_educations",
+  "info": {
+    "displayName": "Education"
+  },
+  "options": {},
+  "attributes": {
+    "institution": {
+      "type": "string"
+    },
+    "profession": {
+      "type": "string"
+    }
+  }
+}

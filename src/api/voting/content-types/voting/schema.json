@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "votings",
+  "info": {
+    "singularName": "voting",
+    "pluralName": "votings",
+    "displayName": "voting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstStep": {
+      "type": "component",
+      "repeatable": false,
+      "component": "voting.first-step"
+    },
+    "secondStep": {
+      "type": "component",
+      "repeatable": false,
+      "component": "voting.second-step"
+    },
+    "applicants": {
+      "type": "component",
+      "repeatable": true,
+      "component": "voting.applicants"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_voting_first_steps",
+  "info": {
+    "displayName": "firstStep",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "isDistributed": {
+      "type": "boolean",
+      "default": false
+    },
+    "judges": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "perAppVote": {
+      "type": "integer"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": false
+    },
+    "distribution": {
+      "type": "component",
+      "repeatable": true,
+      "component": "voting.distribution"
+    }
+  }
+}

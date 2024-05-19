@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_voting_votes",
+  "info": {
+    "displayName": "votes",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "judge": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "criteria1": {
+      "type": "integer"
+    },
+    "criteria2": {
+      "type": "integer"
+    },
+    "criteria3": {
+      "type": "integer"
+    },
+    "criteria4": {
+      "type": "integer"
+    },
+    "criteria5": {
+      "type": "integer"
+    },
+    "criteria6": {
+      "type": "integer"
+    },
+    "averageVote": {
+      "type": "decimal"
+    }
+  }
+}

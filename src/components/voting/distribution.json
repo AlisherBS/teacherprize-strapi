@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_voting_distributions",
+  "info": {
+    "displayName": "distribution",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "judge": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "applicants": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "plugin::users-permissions.user"
+    },
+    "votedIds": {
+      "type": "json"
+    }
+  }
+}

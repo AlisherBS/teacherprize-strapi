@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_experience_experiences",
+  "info": {
+    "displayName": "experience",
+    "icon": "cog",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "company": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "workFrom": {
+      "type": "string"
+    },
+    "workTo": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contacts_contacts",
+  "info": {
+    "displayName": "contacts",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "email2": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "other": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_prize_applications",
+  "info": {
+    "displayName": "application",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "answers": {
+      "type": "json"
+    },
+    "votes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::vote.vote"
+    }
+  }
+}

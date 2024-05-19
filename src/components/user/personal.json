@@ -1,0 +1,54 @@
+{
+  "collectionName": "components_user_personals",
+  "info": {
+    "displayName": "personal",
+    "icon": "shield",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dob": {
+      "type": "date"
+    },
+    "bio": {
+      "type": "text"
+    },
+    "region": {
+      "type": "enumeration",
+      "enum": [
+        "astanaCity",
+        "almatyCity",
+        "shymkentCity",
+        "abay",
+        "akmola",
+        "aktobe",
+        "almaty",
+        "atyrau",
+        "vko",
+        "zhambyl",
+        "zhetisu",
+        "zko",
+        "karagandy",
+        "kostanay",
+        "kyzylorda",
+        "mangystau",
+        "pavlodar",
+        "sko",
+        "turkestan",
+        "ulytau"
+      ]
+    },
+    "subject": {
+      "type": "string"
+    },
+    "cityOrLocality": {
+      "type": "string"
+    },
+    "qualification": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "string"
+    }
+  }
+}
